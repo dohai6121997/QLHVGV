@@ -1,0 +1,33 @@
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\bin\Debug\Quan_Li_Hoc_Sinh.exe.config
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\bin\Debug\Quan_Li_Hoc_Sinh.exe
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\bin\Debug\Quan_Li_Hoc_Sinh.pdb
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.csprojAssemblyReference.cache
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmDangKi.resources
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmExtra.frmBangDiem.resources
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmExtra.frmForm.resources
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmGiaoVien.resources
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmMain.resources
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmExtra.frmHelp.resources
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmExtra.frmHoSoHS.resources
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmExtra.frmLop_MonHoc.resources
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.Properties.Resources.resources
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.csproj.GenerateResource.cache
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.exe
+C:\Users\DELL\Downloads\Exercise2-master\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.pdb
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\bin\Debug\Quan_Li_Hoc_Sinh.exe.config
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\bin\Debug\Quan_Li_Hoc_Sinh.exe
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\bin\Debug\Quan_Li_Hoc_Sinh.pdb
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.csprojAssemblyReference.cache
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmDangKi.resources
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmExtra.frmBangDiem.resources
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmExtra.frmForm.resources
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmGiaoVien.resources
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmMain.resources
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmExtra.frmHelp.resources
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmExtra.frmHoSoHS.resources
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.frmExtra.frmLop_MonHoc.resources
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.Properties.Resources.resources
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.csproj.GenerateResource.cache
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.exe
+D:\Nam 5\Phần mềm quản lý học sinh, giáo viên\Quan_Li_Hoc_Sinh\obj\Debug\Quan_Li_Hoc_Sinh.pdb
