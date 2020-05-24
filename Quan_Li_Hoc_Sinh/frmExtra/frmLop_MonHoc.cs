@@ -69,49 +69,7 @@ namespace Quan_Li_Hoc_Sinh.frmExtra
 				reader.Close();
 			}
 		#endregion
- 		#region Control_lophoc
-			private void btnthemlh_Click(object sender, EventArgs e)
-			{
-				idx = 1;
-				ListViewItem liv = new ListViewItem(txtmalp.Text);
-				liv.SubItems.Add(txttenlp.Text);
-				lvLopHoc.Items.Add(liv);
-			}
-			private void btnsualh_Click(object sender, EventArgs e)
-			{
-				idx = 2;
-				btnthemlh.Enabled = true;
-				if (lvLopHoc.SelectedItems.Count == 0) return;
-				ListViewItem liv = lvLopHoc.SelectedItems[0];
-				liv.SubItems[0].Text = txtmalp.Text;
-				liv.SubItems[1].Text = txttenlp.Text;
-		 	}
-
-        private void btnXoaLop_Click(object sender, EventArgs e)
-        {
-            idx = 3;
-            if (lvLopHoc.SelectedItems != null)
-            {
-                for (int i = 0; i < lvLopHoc.Items.Count; i++)
-                {
-                    if (lvLopHoc.Items[i].Selected)
-                    {
-                        lvLopHoc.Items[i].Remove();
-                        i--;
-                    }
-                }
-            }
-        }
-        private void btnresetlh_Click(object sender, EventArgs e)
-			{
-				btnthemlh.Enabled = true;
-				btnsualh.Enabled = false;
- 				txtmalp.Enabled = true;
-				txttenlp.Clear();
-				txtmalp.Clear();
-		}
-		#endregion
-		#region SelectedListView_lophoc
+ 	
 			private void lvLopHoc_SelectedIndexChanged(object sender, EventArgs e)
 			{
 				txtmalp.Enabled = false;

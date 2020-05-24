@@ -27,7 +27,69 @@ namespace Quan_Li_Hoc_Sinh.frmExtra
             Hocsinh();
         }
         List<string> lst = new List<string>();
+        public void ShowData()
+        {
+            dt.OpenConnection();
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from BANGDIEM";
+            cmd.Connection = dt.conn;
 
+            SqlDataReader reader = cmd.ExecuteReader();
+            lvDB.Items.Clear();
+            while (reader.Read())
+            {
+                ListViewItem liv = new ListViewItem(reader.GetString(0));
+                liv.SubItems.Add(reader.GetString(1));
+                liv.SubItems.Add(reader.GetString(2));
+                liv.SubItems.Add(reader.GetDouble(3).ToString());
+                liv.SubItems.Add(reader.GetDouble(4).ToString());
+                liv.SubItems.Add(reader.GetDouble(5).ToString());
+                liv.SubItems.Add(reader.GetDouble(6).ToString());
+                lst.Add(reader.GetString(0));
+                lvDB.Items.Add(liv);
+            }
+            reader.Close();
+        }
+
+        public void Monhoc()
+        {
+            dt.OpenConnection();
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from MONHOC";
+            cmd.Connection = dt.conn;
+
+            SqlDataReader reader = cmd.ExecuteReader();
+            cbmamon.Items.Clear();
+            while (reader.Read())
+            {
+                string mamh = reader.GetString(0);
+                string tenmh = reader.GetString(1);
+                cbmamon.Items.Add(mamh + "- " + tenmh);
+            }
+            reader.Close();
+        }
+
+        public void Hocsinh()
+        {
+            dt.OpenConnection();
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select * from HOSOHOCSINH";
+            cmd.Connection = dt.conn;
+
+            SqlDataReader reader = cmd.ExecuteReader();
+            cbmahs.Items.Clear();
+            while (reader.Read())
+            {
+                string mahocsinh = reader.GetString(0);
+
+                cbmahs.Items.Add(mahocsinh);
+            }
+            reader.Close();
+        }
+        #endregion
 
         #region SelectedListview
         private void lvDB_SelectedIndexChanged(object sender, EventArgs e)
