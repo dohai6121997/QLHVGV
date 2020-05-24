@@ -69,7 +69,6 @@ namespace Quan_Li_Hoc_Sinh.frmExtra
 				reader.Close();
 			}
 		#endregion
- 		#region Control_lophoc
 			private void btnthemlh_Click(object sender, EventArgs e)
 			{
 				idx = 1;
