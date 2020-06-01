@@ -105,7 +105,37 @@ namespace Quan_Li_Hoc_Sinh.frmExtra
             reader.Close();
         }
 
+        public void DeleteHS_Database()
+        {
+            dt.OpenConnection();
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "XOAHS";
+            cmd.Connection = dt.conn;
 
+            cmd.Parameters.Add("@MAHS", SqlDbType.NVarChar).Value = txtmahs.Text;
+
+            int rekt = cmd.ExecuteNonQuery();
+            lvHS.Items.Clear();
+            if (rekt > 0)
+                ShowData();
+        }
+
+        private void btnXoahs_Click(object sender, EventArgs e)
+        {
+            kths = 3;
+            if (lvHS.SelectedItems != null)
+            {
+                for (int i = 0; i < lvHS.Items.Count; i++)
+                {
+                    if (lvHS.Items[i].Selected)
+                    {
+                        lvHS.Items[i].Remove();
+                        i--;
+                    }
+                }
+            }
+        }
 
         private void txtmahs_TextChanged(object sender, EventArgs e)
         {
